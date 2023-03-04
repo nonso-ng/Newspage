@@ -12,17 +12,17 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat:wght@100;200;300;400;500;700&family=Noto+Sans+JP:wght@100;300;400&display=swap');
 
 
 
-  *{
+  /* *{
     margin: 0 auto;
     padding: 0;
     max-width: 1200px;
 
-  }
+  } */
  
 
 

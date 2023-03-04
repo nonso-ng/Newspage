@@ -24,7 +24,7 @@
 </template>
 
 
-<style>
+<style scoped>
 
   
 
@@ -33,14 +33,11 @@
     display: grid;
     gap: 15px;
     height:67vh;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.1fr 0.9fr;
     
     font-family: 'Inter', sans-serif;
 }
-.hero-left{
-    
 
-}
 .hero-right{
     background-color: hsl(240, 100%, 5%);
     color: white;

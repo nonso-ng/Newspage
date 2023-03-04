@@ -19,7 +19,7 @@
 
 </script>
 
-<style>
+<style scoped>
 
 
 .navbar{
@@ -31,11 +31,14 @@
     max-width: 1200px;
     align-items: center;
     color: grey;
+    /* font-family:'Inter', sans-serif ; */
+    
+    
    
 }
 .navbar img{
-  width: 70px;
-  height: 45px;
+  width: 65px;
+  height: 40px;
   margin-left: -200px;
 }
 
@@ -44,8 +47,12 @@
   list-style: none;
   gap: 20%;
   
+}
 
- 
+.navbar ul li{
+  font-family: 'Inter', sans-serif;
+  font-size:small;
+  font-weight: 500;
 }
 
 
