@@ -21,6 +21,7 @@
 
 <style>
 
+
 .navbar{
     background-color: white;
     display: flex;  
@@ -30,6 +31,7 @@
     max-width: 1200px;
     align-items: center;
     color: grey;
+   
 }
 .navbar img{
   width: 70px;
