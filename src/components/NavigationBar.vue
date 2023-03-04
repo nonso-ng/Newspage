@@ -52,7 +52,11 @@
 .navbar ul li{
   font-family: 'Inter', sans-serif;
   font-size:small;
-  font-weight: 500;
+  font-weight: 520;
+}
+
+.navbar ul li:hover{
+  color:hsl(5, 85%, 63%) ;
 }
 
 

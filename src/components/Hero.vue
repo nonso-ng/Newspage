@@ -53,33 +53,48 @@
 .hero-left-bottom{
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.9fr 1.1fr;
     gap: 15px;
-    height: 25vh;
-    margin-top: 10px;
+    max-height: 25vh;
+    margin-top: 15px;
+    padding-top: 15px;
     
     
 }
 .hero-left-bottom-left{
-background-color: coral;
-font-size: 22px;
-font-weight: bolder;
+/* background-color: coral; */
+
 
 }
+.hero-left-bottom-left h1{
+    margin-top: -5px;
+    font-size: 47px;
+    font-weight: 900;
+    
+}
 .hero-left-bottom-right{
-    background-color: darkred;
+    /* background-color: darkred; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
+    color: gray ;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 20px;
+
 }
 
 .btn{
     background-color:hsl(5, 85%, 63%);
     color: white;
     border-style: none;
-    width: 200px;
+    width: 180px;
     letter-spacing: 4px;
     padding: 15px;
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color:hsl(240, 100%, 5%) ;
 }
 
 </style>
