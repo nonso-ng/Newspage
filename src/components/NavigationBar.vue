@@ -29,6 +29,7 @@
     gap: 20%;
     max-width: 1200px;
     align-items: center;
+    color: grey;
 }
 .navbar img{
   width: 70px;
