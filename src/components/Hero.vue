@@ -19,6 +19,14 @@
             <h3>Hydrogen VS Electric Cars</h3>
             <p>Will hydrogen fueled cars ever actch up to EVs?</p>
             <hr/>
+
+            <h3>The Downsides of AI artistry</h3>
+            <p>What are the possible on demand effect of on-demand AI image generation?</p>
+            <hr/>
+
+            <h3>Is VC funding drying up?</h3>
+            <p>Private funding by VC firms is down 50% YOY, Wtake a look at what that means</p>
+            
         </div>
     </div>
 </template>
