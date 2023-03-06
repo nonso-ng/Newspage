@@ -33,7 +33,7 @@
     display: grid;
     grid-template-columns: 0.9fr 0.9fr 0.9fr;
     margin-top: 20px;
-    gap: 50px;
+    gap: 66px;
     color: gray;
     font-family: 'Inter', sans-serif;
     font-size: medium;

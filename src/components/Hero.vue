@@ -49,7 +49,13 @@
 .hero-right{
     background-color: hsl(240, 100%, 5%);
     color: white;
-    padding: 15px;
+    padding: 35px;
+    max-height: 80%;
+}
+.hero-right p{
+ font-size: medium;
+ font-weight: 100;
+ color: gray;
 }
 .hero-left-top{
     
@@ -69,11 +75,7 @@
     
     
 }
-.hero-left-bottom-left{
-/* background-color: coral; */
 
-
-}
 .hero-left-bottom-left h1{
     margin-top: -5px;
     font-size: 47px;
