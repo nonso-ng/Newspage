@@ -2,6 +2,12 @@
  import Navbar from "../src/components/NavigationBar.vue"
  import Hero from "../src/components/Hero.vue"
  import Herosub from "../src/components/Hero-sub.vue"
+
+
+
+
+
+ 
 </script>
 
 <template>
