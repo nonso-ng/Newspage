@@ -32,11 +32,13 @@
     background-color: white;
     display: grid;
     grid-template-columns: 0.9fr 0.9fr 0.9fr;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     gap: 66px;
     color: gray;
     font-family: 'Inter', sans-serif;
     font-size: medium;
+    height: 20vh;
+ 
 }
 .part-one{
  /* background-color: brown; */
@@ -111,6 +113,14 @@
 }
 .part-three-text h3{
     color: hsl(240, 100%, 5%);
+}
+
+@media (max-width: 800px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 20% 3% 10% 3%;
+    }
 }
 
 

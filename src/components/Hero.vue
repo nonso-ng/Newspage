@@ -2,6 +2,7 @@
   <div class="hero">
     <div class="hero-left">
       <div class="hero-left-top"></div>
+      <div class="hero-left-top-mobile"></div>
       <div class="hero-left-bottom">
         <div class="hero-left-bottom-left">
           <h1>The Bright Future Of Web 3.0?</h1>
@@ -38,17 +39,16 @@
   background-color: white;
   display: grid;
   gap: 15px;
-  height: 67vh;
+  height: 70vh;
   grid-template-columns: 2.1fr 0.9fr;
-
   font-family: "Inter", sans-serif;
 }
 
 .hero-right {
   background-color: hsl(240, 100%, 5%);
   color: white;
-  padding: 35px;
-  max-height: 80%;
+  padding: 10%;
+  height: 55vh;
 }
 .hero-right p {
   font-size: medium;
@@ -60,12 +60,13 @@
   background-size: cover;
   height: 40vh;
 }
+
 .hero-left-bottom {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 0.9fr 1.1fr;
   gap: 15px;
-  max-height: 25vh;
+  height: 25vh;
   margin-top: 15px;
   padding-top: 15px;
 }
@@ -76,10 +77,8 @@
   font-weight: 900;
 }
 .hero-left-bottom-right {
-  /* background-color: darkred; */
   display: flex;
   flex-direction: column;
-
   color: gray;
   font-size: 15px;
   padding-left: 40px;
@@ -97,6 +96,53 @@
 }
 .btn:hover {
   background-color: hsl(240, 100%, 5%);
+}
+
+@media (max-width: 800px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .hero-left-top {
+    display: none;
+    /* 
+     */
+  }
+  .hero-left-top-mobile {
+    display: flex;
+    background-image: url(../assets/image-web-3-mobile.jpg);
+    background-size: cover;
+    height: 55vh;
+    margin: auto 3%;
+  }
+
+  .hero-left-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  .hero-left-bottom-left h1 {
+    margin: auto 3%;
+  }
+
+  .hero-left-bottom-right {
+    padding: 0;
+    margin:0% 3% 0% 3%;
+  }
+
+  .hero-left-bottom-right p{
+    line-height: 2.3;
+  }
+.hero-right{
+  margin: auto 3%;
+}
+.hero-right {
+height: 60%;
+}
+
+
 }
 </style>
 
@@ -117,8 +163,4 @@ let news = [
       "Private funding by VC firms is down 50% YOY, Wtake a look at what that means",
   },
 ];
-
-
-
-
 </script>
